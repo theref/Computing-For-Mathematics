@@ -22,5 +22,6 @@ def createquad(alist):
 		quadlist.append(i)
 	return quadlist
 
-print createquad(reader)[].roots()
-
+quads = createquad(reader)
+newlist = [ i for i in quads[1:] if i.roots()]
+print len(newlist)
