@@ -1,0 +1,83 @@
+\documentclass{article}
+\usepackage{amsmath}
+\title{Basic LaTeX}
+\begin{document}
+
+\section{My first section}\label{first_section}
+
+This is a section with a few subsections.
+
+\subsection{A part of my first section}
+
+Here I could write about the problem I'm trying to solve.
+
+\subsection{Another part of my first section}
+
+In this subsection I could solve the problem.
+
+\subsubsection{Further fragmentation...}
+anything really
+
+\section{My second section}\label{second_section}
+
+In Section \ref{first_section} we saw that...
+
+A very helpful reference for LaTeX is \cite{Gratzer2007}.
+Mathematics can be typed in to \LaTeX\ as $x^2$ and/or \((a+b)^2=a^2+2ab+b^2\).
+
+\begin{equation}\label{my_first_equation}
+e=mc^2
+\end{equation}
+
+In equation (\ref{my_first_equation}) we have a very well known relationship!
+
+$$x^2 = 1 \text{ implies } x=\pm1$$
+
+\begin{itemize}
+    \item $a+b$
+    \item $a-b$
+    \item $-a$
+    \item $ab$
+    \item $a\cdot b$
+    \item $a\times b$
+    \item $a/b$
+    \item ${a\over b}$
+    \item $\frac{a}{b}$
+\end{itemize}
+
+$$\int_{0}^{\pi}4x^2\,dx$$
+
+$$\begin{pmatrix}
+a&b\\
+c&d\\
+e&f\\
+\end{pmatrix}$$
+
+$$\begin{matrix}
+a&b\\
+c&d\\
+e&f\\
+\end{matrix}$$
+
+$$\begin{vmatrix}
+a&b\\
+c&d\\
+e&f\\
+\end{vmatrix}$$
+
+\begin{align}
+    (x+h)^2-x^2 & = x^2+2xh+h^2-x^2 && \text{(by distributivity)}\\
+                & = 2xh+h^2         && \text{(by subtraction)}\\
+                & = h(2x+h)         && \text{(by factorisation)}
+\end{align}
+
+$$
+1+(-1)^n=\begin{cases}
+            0, & \text{if $n$ odd}\\
+            2, & \text{if $n$ even}
+            \end{cases}
+$$
+
+\bibliographystyle{plain}
+\bibliography{bibliography}
+\end{document}

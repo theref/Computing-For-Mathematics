@@ -1,0 +1,25 @@
+# Fdb version 3
+["bibtex T9-17"] 1385983465 "T9-17.aux" "T9-17.bbl" "T9-17" 1385983698
+  "/usr/local/texlive/2013/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
+  "T9-17.aux" 1385983698 645 d48faf682d6994e1853f618944e73d56 ""
+  "T9-17.bcf" 0 -1 0 ""
+  "bibliography.bib" 1385982623 168 9f003b6b60747870dc0dbf47966841ae ""
+  (generated)
+  "T9-17.bbl"
+  "T9-17.blg"
+["pdflatex"] 1385983697 "T9-17.tex" "T9-17.pdf" "T9-17" 1385983698
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsbsy.sty" 1362954379 2412 2d98314dc5be38f455f8890deeb2d091 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsgen.sty" 1362954379 4357 ad30ad08920902fc9b38caf35a3b0496 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsmath.sty" 1362954379 79178 b2e326c351e876df0e5e23df2e02441b ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amsopn.sty" 1362954379 4082 502152465aedb8f6a3c4b0b7c0fa8ae5 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/amsmath/amstext.sty" 1362954379 2637 846ebe982d3549c7ede7ce135456f54a ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/base/article.cls" 1254151887 20571 b8bd218bf2e18b4f5817ee643cd9c515 ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/base/omscmr.fd" 1254151887 2109 c400bd6c901edc4a09e4d53fcffd3b3c ""
+  "/usr/local/texlive/2013/texmf-dist/tex/latex/base/size10.clo" 1254151887 9042 248dfba326a1b8733d6bb8e0a3ac1e49 ""
+  "T9-17.aux" 1385983698 645 d48faf682d6994e1853f618944e73d56 ""
+  "T9-17.bbl" 1385983465 205 a5c5fd8985ccb19c272d2677f928727a "bibtex T9-17"
+  "T9-17.tex" 1385983697 1650 17d67d9bea73b93ec4254afce7e4dde9 ""
+  (generated)
+  "T9-17.pdf"
+  "T9-17.aux"
+  "T9-17.log"
