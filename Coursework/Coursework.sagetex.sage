@@ -4,8 +4,24 @@ import sagetex
 _st_ = sagetex.SageTeXProcessor('Coursework', version='2012/01/16 v2.3.3-69dcb0eb93de', version_check=True)
 _st_.blockbegin()
 try:
-     f(x) = exp(x) * sin(2*x)
+ import random
+ binlist = [0]
+ for _ in range(1000):
+     s = random.randint(0, 1)
+     if s == 0:
+         s = -1
+     binlist.append(binlist[-1] + s)
+ onedimensionalwalk = list_plot(binlist, plotjoined=True)
+ 
 except:
- _st_.goboom(20)
+ _st_.goboom(34)
 _st_.blockend()
+try:
+ _st_.inline(0, onedimensionalwalk)
+except:
+ _st_.goboom(36)
+try:
+ _st_.plot(0, format='notprovided', _p_=onedimensionalwalk)
+except:
+ _st_.goboom(40)
 _st_.endofdoc()
