@@ -33,35 +33,33 @@ To model snakes and ladders I created a transition matrix. This is matrix where 
 
 \begin{verbatim}
 a = matrix(QQ, 101) # creates a square matrix populated with 0's
-ladders = [14, 30, 39, 67] # base of the ladders
-snakes = [29, 71, 93, 97] # head of the snakes
-snakesladders = snakes + ladders
+SaLdic = {29: 7, # a dictionary of all the snakes and ladders
+          71: 53,
+          93: 1,
+          97: 61,
+          14: 64,
+          30: 49,
+          39: 60,
+          67: 96}
 
 def rolldice(N):
-    """
-    simulates the rolling of a dice
-    Inputs: an integer N, the index of the row in the matrix
-    Outputs: alter the matrix a to reflect the outcome of the dice
-    """
-    for i in range(1,7):
-        try: # changes the next 6 values to 1/6.
-            a[N, N + i] = 1/6
-        except:
-            pass
+	"""
+	simulates the rolling of a dice
+	Inputs: an integer N, the index of the row in the matrix
+	Outputs: alter the matrix a to reflect the outcome of the dice
+	"""
+	for i in range(1,7):
+		try: # changes the next 6 values to 1/6.
+			a[N, N + i] = 1/6
+		except:
+			pass
 
 for k in range(101): # does rolldice over the entire matrix a.
-    if k not in snakesladders:
+    if k not in SaLdic:
         rolldice(k)
 
-a[100,100] = 1 # when you get to 100, you win
-a[29, 7] = 1 # snakes and ladders have a certain outcome
-a[71, 53] = 1
-a[93, 1] = 1
-a[97, 61] = 1
-a[14, 64] = 1
-a[30, 49] = 1
-a[39, 60] = 1
-a[67, 96] = 1
+for p, q in SaLdic.iteritems(): # changes probabilities to 1, because they are certain.
+    a[p, q] = 1
 \end{verbatim}
 
 Then I created a vector to represent the probabilities of current position. It begins with just $1$ in $Row_0$ because the probability of being off the board at the start of the game is certain. By multiplying this vector by the transition matrix, it gets populated by more and more probabilities.
