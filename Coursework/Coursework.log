@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.26)  8 DEC 2013 12:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013) (format=pdflatex 2013.11.26)  8 DEC 2013 13:16
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -580,7 +580,7 @@ Package epstopdf Info: Source file: <images/logisticmap.eps>
 (epstopdf)                    size: 17361 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/logisticmap-eps-con
 verted-to.pdf images/logisticmap.eps>
-(epstopdf)             \includegraphics on input line 31.
+(epstopdf)             \includegraphics on input line 29.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/logisticmap-eps-converted-to.pdf, id=24, 563.10374pt x 422.57875pt>
@@ -588,7 +588,7 @@ File: images/logisticmap-eps-converted-to.pdf Graphic file (type pdf)
 
 <use images/logisticmap-eps-converted-to.pdf>
 Package pdftex.def Info: images/logisticmap-eps-converted-to.pdf used on input 
-line 31.
+line 29.
 (pdftex.def)             Requested size: 225.2375pt x 169.0285pt.
  [1
 
@@ -603,25 +603,25 @@ f>
 (epstopdf)                    size: 10761 bytes
 (epstopdf)             Command: <repstopdf --outfile=images/butterflyeffect-eps
 -converted-to.pdf images/butterflyeffect.eps>
-(epstopdf)             \includegraphics on input line 50.
+(epstopdf)             \includegraphics on input line 48.
 Package epstopdf Info: Output file is already uptodate.
 
 <images/butterflyeffect-eps-converted-to.pdf, id=72, 565.11125pt x 420.57124pt>
 File: images/butterflyeffect-eps-converted-to.pdf Graphic file (type pdf)
 <use images/butterflyeffect-eps-converted-to.pdf>
 Package pdftex.def Info: images/butterflyeffect-eps-converted-to.pdf used on in
-put line 50.
-(pdftex.def)             Requested size: 452.97777pt x 227.6249pt.
+put line 48.
+(pdftex.def)             Requested size: 282.55493pt x 210.28511pt.
  (./Coursework.bbl)
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 58.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 56.
  [2 <./images/butterflyeffect-eps-converted-to.pdf>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 58.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 56.
  (./Coursework.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 58.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 58.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 56.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 56.
 Package rerunfilecheck Info: File `Coursework.out' has not changed.
 (rerunfilecheck)             Checksum: DD69794CFA4169C79B68CF33E4878ABF;201.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 58.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 56.
  ) 
 Here is how much of TeX's memory you used:
  13922 strings out of 493315
@@ -630,7 +630,7 @@ Here is how much of TeX's memory you used:
  17112 multiletter control sequences out of 15000+600000
  8576 words of font info for 32 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 56i,8n,55p,593b,438s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 56i,8n,55p,593b,356s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb
 ></usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb>
 </usr/local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></
@@ -640,7 +640,7 @@ local/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/lo
 cal/texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local
 /texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/
 texlive/2013/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Coursework.pdf (2 pages, 122901 bytes).
+Output written on Coursework.pdf (2 pages, 121349 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  79 compressed objects within 1 object stream

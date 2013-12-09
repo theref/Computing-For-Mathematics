@@ -1,13 +1,13 @@
 # Fdb version 3
-["bibtex Coursework"] 1386504733 "Coursework.aux" "Coursework.bbl" "Coursework" 1386504736
+["bibtex Coursework"] 1386504733 "Coursework.aux" "Coursework.bbl" "Coursework" 1386513704
   "/usr/local/texlive/2013/texmf-dist/bibtex/bst/base/plain.bst" 1292289607 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
-  "Coursework.aux" 1386504735 1613 39f104e680694220443b07e1fedbca5d ""
+  "Coursework.aux" 1386508604 1613 39f104e680694220443b07e1fedbca5d ""
   "Coursework.bcf" 0 -1 0 ""
   "biblio.bib" 1386504727 272 a53c688efe3148bf789e85d17e800d96 ""
   (generated)
   "Coursework.blg"
   "Coursework.bbl"
-["pdflatex"] 1386504734 "Coursework.tex" "Coursework.pdf" "Coursework" 1386504736
+["pdflatex"] 1386508603 "Coursework.tex" "Coursework.pdf" "Coursework" 1386513704
   "/usr/local/texlive/2013/texmf-dist/tex/context/base/supp-pdf.mkii" 1337017135 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/ifxetex/ifxetex.sty" 1284331290 1458 43ab4710dc82f3edeabecd0d099626b2 ""
   "/usr/local/texlive/2013/texmf-dist/tex/generic/oberdiek/gettitlestring.sty" 1303254447 8237 52810bdb4db2270e717422560a104aea ""
@@ -102,10 +102,10 @@
   "/usr/local/texlive/2013/texmf-dist/tex/latex/preprint/fullpage.sty" 1137110595 2789 05b418f78b224ec872f5b11081138605 ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/url/url.sty" 1264379145 21932 e3a9cf32ee9b853b42be14c2f25b873c ""
   "/usr/local/texlive/2013/texmf-dist/tex/latex/xcolor/xcolor.sty" 1169481954 55224 a43bab84e0ac5e6efcaf9a98bde73a94 ""
-  "Coursework.aux" 1386504735 1613 39f104e680694220443b07e1fedbca5d ""
+  "Coursework.aux" 1386508604 1613 39f104e680694220443b07e1fedbca5d ""
   "Coursework.bbl" 1386504734 200 cb14c92ec410cd989612bcd2886e013e "bibtex Coursework"
-  "Coursework.out" 1386504735 201 dd69794cfa4169c79b68cf33e4878abf ""
-  "Coursework.tex" 1386504727 2778 cddac16b323a58ee8455575ad97784e0 ""
+  "Coursework.out" 1386508604 201 dd69794cfa4169c79b68cf33e4878abf ""
+  "Coursework.tex" 1386508603 2912 2b088123ffb1f46d84311f789e9abca7 ""
   "images/butterflyeffect-eps-converted-to.pdf" 1386504733 10761 8b14ec6b9580f5fb61b3c29c5a780d01 ""
   "images/butterflyeffect.eps" 1386504574 22835 b83eb8c75dc1439044ff23c650555e90 ""
   "images/logisticmap-eps-converted-to.pdf" 1386504731 17361 94bfc7c62c075a86912f7acfa90a67eb ""
