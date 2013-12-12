@@ -2,7 +2,10 @@
 
 \bibitem{wiki:ButterflyEffect}
 Wikipedia.
-\newblock Snakes and ladders --- wikipedia{,} the free encyclopedia, 2013.
+\newblock Snakes and ladders --- wikipedia{,} the free encyclopedia.
+\newblock
+  \url{http://en.wikipedia.org/w/index.php?title=Snakes_and_Ladders&oldid=581047421},
+  2013.
 \newblock [Online; accessed 9-December-2013].
 
 \end{thebibliography}
