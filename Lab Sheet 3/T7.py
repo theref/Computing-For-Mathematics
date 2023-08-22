@@ -18,7 +18,7 @@ def binarysearch(data, item):
 		middle = int((first + last) / 2) # gets the middle index by finding the mean
 		if item == data[middle]: # checks if the middle term is the item
 			found = True
-		elif first == last and not found:
+		elif first == last:
 			return "item not in list"
 		elif item < data[middle]: #checks if the middle term is more than the item
 			last = middle - 1 # changes the last index to 1 less than middle index

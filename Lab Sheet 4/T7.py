@@ -10,10 +10,7 @@ class Quadratic():
 		self.c = c
 
 	def roots(self):
-		if (int(self.b) ** 2) - (4 * int(self.a) * int(self.c)) >= 0:
-			return True
-		else:
-			return False
+		return (int(self.b) ** 2) - (4 * int(self.a) * int(self.c)) >= 0
 
 def createquad(alist):
 	quadlist = []

@@ -6,7 +6,7 @@ def isprime(n):
 
 	Outputs: Boolean value
 	"""
-	return max([e % n for e in range(2, n)]) != 0
+	return max(e % n for e in range(2, n)) != 0
 
 numbers = open('W03_D01.txt', 'r').read().split('\n')
 numberlist = [int(e) for e in numbers[:-1]]
