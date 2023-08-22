@@ -7,7 +7,7 @@ def iterX(n):
 	Outputs: integers
 	"""
 	r = 1
-	for i in range(n - 1):
+	for _ in range(n - 1):
 		r *= 2
 	return r
 
@@ -21,8 +21,6 @@ def recX(n):
 
 	Outputs: integers
 	"""
-	if n == 1:
-		return 1
-	return 2 * recX(n - 1)
+	return 1 if n == 1 else 2 * recX(n - 1)
 
 print recX(4)

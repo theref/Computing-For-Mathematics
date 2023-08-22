@@ -21,8 +21,6 @@ def recurFib(n):
 
 	Outputs: integer!
 	"""
-	if n == 1:
-		return 1
-	return n * recurFib(n - 1)
+	return 1 if n == 1 else n * recurFib(n - 1)
 
 print recurFib(10)

@@ -16,10 +16,7 @@ def seqsearch(data, item):
 			found = True
 		else:
 			index += 1
-	if found:
-		return index
-	else:
-		return "item not in list"
+	return index if found else "item not in list"
 
 
 #for i in targets:
